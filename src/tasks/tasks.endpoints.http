@@ -1,0 +1,21 @@
+GET http://localhost:3200/tasks
+Content-Type: application/json
+
+POST http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+    "title": "Test post",
+    "date": "2021-01-01T12:00:00Z",
+    "description": "Test opis POST",
+    "priority": "normal",
+    "status": "todo"
+}
+
+PUT http://localhost:3200/tasks
+Content-Type: application/json
+
+{
+    "id": "ac31cc0f",
+    "status": "inProgress"
+}

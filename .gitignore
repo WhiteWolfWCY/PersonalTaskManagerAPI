@@ -1,0 +1,7 @@
+node_modules
+.env
+.prettierrc
+.eslintrc.json
+package.json
+tsconfig.json
+package-lock.json
